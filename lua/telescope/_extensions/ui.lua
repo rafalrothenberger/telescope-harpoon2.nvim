@@ -117,7 +117,6 @@ function Harpoon2TelescopeUI:_save_to_history()
   end
 
   table.insert(self._history, current_entries)
-  print(vim.inspect(self._history))
 end
 
 function Harpoon2TelescopeUI:move_mark(prompt_bufnr, offset)
